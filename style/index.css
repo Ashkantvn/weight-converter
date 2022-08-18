@@ -1,0 +1,46 @@
+/* global style */
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+body,
+html {
+  max-height: 100vh;
+  max-width: 100vw;
+}
+main {
+  width: 50vw;
+  margin: 0 auto;
+  margin-top: 10em;
+  box-shadow: 0 8px 10px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 5px 5px 0 0 ;
+}
+
+/* header style */
+
+header {
+  color: #29231a;
+  background-color: #fccc80;
+  text-align: center;
+  padding: 0.5em;
+  border-radius: 5px 5px 0 0 ;
+}
+h1{
+    margin: 1em 0;
+}
+label{
+    display: block;
+}
+header>form>div{
+    margin:1em 0;
+}
+
+/* units style */
+ul{
+    display: grid;
+    grid-template-rows: repeat(5 ,3em);
+    margin: 1em  0 0 2em;
+}

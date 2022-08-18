@@ -8,32 +8,36 @@
     <link rel="stylesheet" href="../style/index.css" />
   </head>
   <body>
-    <h1>Weight-converter</h1>
-    <form>
-      <div>
-        <label for="type">Select unit of weight</label>
-        <select id="type">
-            <option value="">...</option>
-            <option value="">Kilogram</option>
-            <option value="">Gram</option>
-            <option value="">Milligram</option>
-            <option value="">Pound</option>
-            <option value="">Ounce</option>
-        </select>
-      </div>
-      <div>
-        <label for="amount">Enter the amount of weight:</label>
-        <input id="amount" type="text" />
-      </div>
-      <button type="submit">submit</button>
-    </form>
-    <ul>
+    <main>
+      <header>
+        <h1>Weight-converter</h1>
+        <form>
+          <div>
+            <label for="type">Select unit of weight</label>
+            <select id="type">
+              <option value="">...</option>
+              <option value="">Kilogram</option>
+              <option value="">Gram</option>
+              <option value="">Milligram</option>
+              <option value="">Pound</option>
+              <option value="">Ounce</option>
+            </select>
+          </div>
+          <div>
+            <label for="amount">Enter the amount of weight:</label>
+            <input id="amount" type="number" />
+          </div>
+          <button type="submit">submit</button>
+        </form>
+      </header>
+      <ul>
         <li>Kilogram:</li>
         <li>Gram:</li>
         <li>Milligram:</li>
         <li>Pound:</li>
         <li>Ounce:</li>
-    </ul>
+      </ul>
+    </main>
     <script src="../dist/index.js"></script>
   </body>
 </html>
