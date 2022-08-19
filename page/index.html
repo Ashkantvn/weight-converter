@@ -14,28 +14,28 @@
         <form>
           <div>
             <label for="type">Select unit of weight</label>
-            <select id="type">
+            <select   id="type">
               <option value="">...</option>
-              <option value="">Kilogram</option>
-              <option value="">Gram</option>
-              <option value="">Milligram</option>
-              <option value="">Pound</option>
-              <option value="">Ounce</option>
+              <option value="Kilogram">Kilogram</option>
+              <option value="Milligram">Milligram</option>
+              <option value="Gram">Gram</option>
+              <option value="Pound">Pound</option>
+              <option value="Ounce">Ounce</option>
             </select>
           </div>
           <div>
             <label for="amount">Enter the amount of weight:</label>
-            <input id="amount" type="number" />
+            <input  id="amount" type="number" />
           </div>
-          <button type="submit">submit</button>
+          <button id="submit" type="submit">submit</button>
         </form>
       </header>
       <ul>
-        <li>Kilogram:</li>
-        <li>Gram:</li>
-        <li>Milligram:</li>
-        <li>Pound:</li>
-        <li>Ounce:</li>
+        <li class="unit">Kilogram:</li>
+        <li class="unit">Gram:</li>
+        <li class="unit">Milligram:</li>
+        <li class="unit">Pound:</li>
+        <li class="unit">Ounce:</li>
       </ul>
     </main>
     <script src="../dist/index.js"></script>
